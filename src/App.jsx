@@ -1,12 +1,12 @@
 import MainContainer from "./components/MainContainer";
 import Header from "./components/Header";
-import Summary from "./components/Summary";
+import RightContent from "./components/RightContent";
 
 function App() {
   return (
     <MainContainer>
       <Header />
-      <Summary />
+      <RightContent />
     </MainContainer>
   );
 }
