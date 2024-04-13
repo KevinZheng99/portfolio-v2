@@ -1,5 +1,6 @@
 import About from "./Sections/About";
 import Experience from "./Sections/Experience";
+import Projects from "./Sections/Projects";
 import { QuanSkills, GetaboardSkills } from "../conts";
 
 function RightContainer() {
@@ -45,6 +46,7 @@ function RightContainer() {
           </ul>
         </div>
       </Experience>
+      <Projects />
     </div>
   );
 }
