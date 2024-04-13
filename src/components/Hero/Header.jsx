@@ -3,7 +3,7 @@ import Socials from "./Socials";
 
 function Header() {
   return (
-    <div className="sticky top-0 flex flex-col max-h-screen w-2/5 justify-between py-14">
+    <div className="sticky top-0 flex flex-col max-h-screen w-1/2 justify-between py-14">
       <div>
         <h1 className="text-purple-500 text-4xl font-bold">Kevin Zheng</h1>
         <h2 className="text-purple-500 text-base font-bold mt-1">

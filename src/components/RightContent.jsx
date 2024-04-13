@@ -1,9 +1,10 @@
-import About from "./About";
-import Experience from "./Experience/Experience";
+import About from "./Sections/About";
+import Experience from "./Sections/Experience";
+import { QuanSkills, GetaboardSkills } from "../conts";
 
 function RightContainer() {
   return (
-    <div className=" text-purple-500 w-3/5 py-14">
+    <div className=" text-purple-500 w-1/2 py-16">
       <About />
       <Experience>
         <p className="w-1/3 text-xxs">JAN 2022 - OCT 2023</p>
@@ -18,14 +19,11 @@ function RightContainer() {
             product from the ground up.
           </p>
           <ul className="flex flex-wrap gap-2 text-xxxs text-purple-300">
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">JavaScript</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">TypeScript</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">HTML</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">CSS</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">React</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">Next.js</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">Node.js</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">SQL</li>
+            {QuanSkills.map((skill) => (
+              <li key={skill} className="px-2 py-1 bg-purple-900 rounded-2xl">
+                {skill}
+              </li>
+            ))}
           </ul>
         </div>
       </Experience>
@@ -39,10 +37,11 @@ function RightContainer() {
             diverse enemy types, and formidable boss encounters.
           </p>
           <ul className="flex flex-wrap gap-2 text-xxxs text-purple-300">
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">HTML</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">CSS</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">JavaScript</li>
-            <li className="px-2 py-1 bg-purple-900 rounded-2xl">Phaser</li>
+            {GetaboardSkills.map((skill) => (
+              <li key={skill} className="px-2 py-1 bg-purple-900 rounded-2xl">
+                {skill}
+              </li>
+            ))}
           </ul>
         </div>
       </Experience>

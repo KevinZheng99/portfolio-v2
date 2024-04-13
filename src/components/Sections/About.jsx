@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="flex flex-col text-purple-500 text-xs gap-2 mb-20">
+    <div className="flex flex-col text-xs gap-2 mb-20">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
         laboriosam placeat quisquam inventore reprehenderit? Distinctio sit
