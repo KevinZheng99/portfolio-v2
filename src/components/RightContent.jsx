@@ -1,6 +1,7 @@
 import About from "./Sections/About";
 import Experience from "./Sections/Experience";
 import Projects from "./Sections/Projects";
+import Footer from "./Sections/Footer";
 
 function RightContainer() {
   return (
@@ -8,6 +9,7 @@ function RightContainer() {
       <About />
       <Experience />
       <Projects />
+      <Footer />
     </div>
   );
 }
