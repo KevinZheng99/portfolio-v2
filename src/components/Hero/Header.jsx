@@ -9,7 +9,7 @@ function Header() {
         <h2 className="text-purple-500 text-base font-bold mt-1">
           Frontend Engineer
         </h2>
-        <p className="text-purple-500 text-xs mt-2 w-3/5">
+        <p className="text-purple-300 text-xs mt-2 w-3/5">
           I build pixel-perfect, engaging, and accessible digital experiences.
         </p>
         <Navigator />

@@ -18,7 +18,7 @@ function Projects() {
             />
             <div className="flex flex-col w-2/3 gap-3">
               <p className="text-xs font-bold">Computron</p>
-              <p className="text-xxs">
+              <p className="text-xxs text-purple-300">
                 {`Game that helps people learn coding logic and techniques that is
                 similar to games like "Human Resource Machine" and
                 "7 Billion Humans".`}
@@ -39,7 +39,7 @@ function Projects() {
             />
             <div className="flex flex-col w-2/3 gap-3">
               <p className="text-xs font-bold">Crunchyroll Landing Page</p>
-              <p className="text-xxs">
+              <p className="text-xxs text-purple-300">
                 Created a landing page to be responsive and compatible with any
                 device.
               </p>
