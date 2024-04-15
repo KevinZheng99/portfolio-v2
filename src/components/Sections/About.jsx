@@ -1,6 +1,9 @@
 function About() {
   return (
-    <div id="about" className="flex flex-col text-xs gap-2 mb-20 scroll-mt-20">
+    <section
+      id="about"
+      className="flex flex-col text-xs gap-2 mb-20 scroll-mt-20"
+    >
       <p>
         My journey into the realm of development began in 2016, captivated by
         videos showcasing developers crafting intricately designed games
@@ -20,7 +23,7 @@ function About() {
         powerlifting, training for a marathon or I&apos;m tending to my crops
         and animals in Stardew Valley.
       </p>
-    </div>
+    </section>
   );
 }
 
