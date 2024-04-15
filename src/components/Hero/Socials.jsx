@@ -3,7 +3,8 @@ import LinkedIn from "../Icons/LinkedIn";
 import Email from "../Icons/Email";
 
 function Socials() {
-  const svgClasses = "fill-current text-purple-500 hover:text-purple-300";
+  const svgClasses =
+    "fill-current text-purple-500 transition-all hover:text-purple-300";
 
   return (
     <div className="flex gap-4">

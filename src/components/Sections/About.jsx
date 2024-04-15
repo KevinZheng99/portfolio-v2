@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="flex flex-col text-xs gap-2 mb-20">
+    <div id="about" className="flex flex-col text-xs gap-2 mb-20 scroll-mt-20">
       <p>
         My journey into the realm of development began in 2016, captivated by
         videos showcasing developers crafting intricately designed games

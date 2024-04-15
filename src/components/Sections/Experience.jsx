@@ -2,7 +2,7 @@ import { QuanSkills, GetaboardSkills } from "../../conts";
 
 function Experience() {
   return (
-    <ul>
+    <ul id="experience" className="scroll-mt-12">
       <a href="https://www.quanwellbeing.com/" target="_blank" rel="noreferrer">
         <li className="flex gap-4 hover:border hover:border-purple-500 rounded p-4 mb-4">
           <p className="w-1/3 text-xxs text-purple-300">JAN 2022 - OCT 2023</p>

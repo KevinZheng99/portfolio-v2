@@ -3,7 +3,7 @@ import computron from "../../assets/Computron.png";
 
 function Projects() {
   return (
-    <div className="mt-20">
+    <div id="projects" className="mt-20 scroll-mt-12">
       <ul>
         <a
           href="https://computrondevteam.itch.io/computron2-0"
