@@ -47,6 +47,26 @@ function Projects() {
           </li>
         </a>
       </ul>
+      <a
+        className="group text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
+        href="/archive"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span className="mr-0.5">View Projects Archive</span>
+        <svg
+          className="inline group-hover:translate-x-1 transition-transform"
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+          />
+        </svg>
+      </a>
     </section>
   );
 }

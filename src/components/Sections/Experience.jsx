@@ -65,16 +65,26 @@ function Experience() {
           </li>
         </a>
       </ul>
-      <div>
-        <a
-          className="text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
-          href="https://drive.google.com/file/d/1TAV-DTB6SrybSW5X8pzV7TLO8MAjNKYh/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
+      <a
+        className="group text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
+        href="https://drive.google.com/file/d/1TAV-DTB6SrybSW5X8pzV7TLO8MAjNKYh/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span className="mr-0.5">View Full Resume</span>
+        <svg
+          className="inline group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
         >
-          View Full Resume
-        </a>
-      </div>
+          <path
+            fill="currentColor"
+            d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"
+          />
+        </svg>
+      </a>
     </section>
   );
 }
