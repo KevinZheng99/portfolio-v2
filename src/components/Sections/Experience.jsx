@@ -9,7 +9,7 @@ function Experience() {
           target="_blank"
           rel="noreferrer"
         >
-          <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4">
+          <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4 transition-all">
             <p className="w-1/3 text-xxs text-purple-300">
               JAN 2022 - OCT 2023
             </p>
@@ -37,7 +37,7 @@ function Experience() {
           </li>
         </a>
         <a href="https://getaboard.org/" target="_blank" rel="noreferrer">
-          <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4">
+          <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4 transition-all">
             <p className="w-1/3 text-xxs text-purple-300">
               JAN 2020 - APR 2020
             </p>
@@ -65,6 +65,16 @@ function Experience() {
           </li>
         </a>
       </ul>
+      <div>
+        <a
+          className="text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
+          href="https://drive.google.com/file/d/1_YujqrEWu75BPXX_yyTwzFqVlcxCzO0d/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View Full Resume
+        </a>
+      </div>
     </section>
   );
 }

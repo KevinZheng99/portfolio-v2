@@ -37,12 +37,12 @@ function Navigator() {
             name="Experience"
             href="#experience"
             lineStyles={
-              scrollPosition >= 300 && scrollPosition < 700
+              scrollPosition >= 300 && scrollPosition < 600
                 ? activeLineClasses
                 : inactiveLineClasses
             }
             linkStyles={
-              scrollPosition >= 300 && scrollPosition < 700
+              scrollPosition >= 300 && scrollPosition < 600
                 ? activeLinkClasses
                 : inactiveLinkClasses
             }
@@ -53,10 +53,10 @@ function Navigator() {
             name="Projects"
             href="#projects"
             lineStyles={
-              scrollPosition >= 700 ? activeLineClasses : inactiveLineClasses
+              scrollPosition >= 600 ? activeLineClasses : inactiveLineClasses
             }
             linkStyles={
-              scrollPosition >= 700 ? activeLinkClasses : inactiveLinkClasses
+              scrollPosition >= 600 ? activeLinkClasses : inactiveLinkClasses
             }
           />
         </li>
