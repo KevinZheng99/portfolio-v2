@@ -9,12 +9,12 @@ function Experience() {
           target="_blank"
           rel="noreferrer"
         >
-          <li className="flex gap-4 hover:border hover:border-purple-500 rounded p-4 mb-4">
+          <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4">
             <p className="w-1/3 text-xxs text-purple-300">
               JAN 2022 - OCT 2023
             </p>
             <div className="flex flex-col w-2/3 gap-3">
-              <p className="text-xs font-bold ">
+              <p className="text-xs font-medium">
                 Software Engineer • Quan Wellbeing
               </p>
               <p className="text-xxs text-purple-300">
@@ -37,12 +37,12 @@ function Experience() {
           </li>
         </a>
         <a href="https://getaboard.org/" target="_blank" rel="noreferrer">
-          <li className="flex gap-4 hover:border hover:border-purple-500 rounded p-4 mb-4">
+          <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4">
             <p className="w-1/3 text-xxs text-purple-300">
               JAN 2020 - APR 2020
             </p>
             <div className="flex flex-col w-2/3 gap-3">
-              <p className="text-xs font-bold ">
+              <p className="text-xs font-medium">
                 Software Developer • Getaboard
               </p>
               <p className="text-xxs text-purple-300">
