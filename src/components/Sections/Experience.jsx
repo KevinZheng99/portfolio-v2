@@ -68,7 +68,7 @@ function Experience() {
       <div>
         <a
           className="text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
-          href="https://drive.google.com/file/d/1_YujqrEWu75BPXX_yyTwzFqVlcxCzO0d/view?usp=sharing"
+          href="https://drive.google.com/file/d/1TAV-DTB6SrybSW5X8pzV7TLO8MAjNKYh/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
