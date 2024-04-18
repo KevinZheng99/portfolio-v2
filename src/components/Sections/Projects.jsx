@@ -50,8 +50,6 @@ function Projects() {
       <a
         className="group text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
         href="/archive"
-        target="_blank"
-        rel="noreferrer"
       >
         <span className="mr-0.5">View Projects Archive</span>
         <svg
