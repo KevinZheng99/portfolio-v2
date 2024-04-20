@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       id="about"
-      className="flex flex-col text-xs gap-2 mb-20 scroll-mt-20 text-slate-400"
+      className="flex flex-col gap-2 mb-20 scroll-mt-20 text-slate-400"
     >
       <p>
         My journey into the realm of development began in 2016, captivated by

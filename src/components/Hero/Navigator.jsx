@@ -14,7 +14,7 @@ function Navigator() {
   const inactiveLineClasses = defaultLineClasses + " border-gray-500 w-8";
 
   return (
-    <nav className="text-purple-500 text-xs font-bold mt-12">
+    <nav className="text-purple-500 font-bold mt-12">
       <ul className="flex flex-col gap-3">
         <li>
           <NavLink

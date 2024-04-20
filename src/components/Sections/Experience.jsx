@@ -1,4 +1,5 @@
 import { QuanSkills, GetaboardSkills } from "../../conts";
+import Skill from "../shared/Skill";
 
 function Experience() {
   return (
@@ -10,27 +11,20 @@ function Experience() {
           rel="noreferrer"
         >
           <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4 transition-all">
-            <p className="w-1/3 text-xxs text-purple-300">
-              JAN 2022 - OCT 2023
-            </p>
+            <p className="w-1/3 text-sm text-purple-300">JAN 2022 - OCT 2023</p>
             <div className="flex flex-col w-2/3 gap-3">
-              <p className="text-xs font-medium">
+              <p className="text-lg font-medium">
                 Software Engineer • Quan Wellbeing
               </p>
-              <p className="text-xxs text-purple-300">
+              <p className="text-sm text-purple-300">
                 Collaborated with a cross-functional team of developers,
                 designers, and product managers to successfully build the
                 initial version of the application. Developed and built
                 components used on the Quan product from the ground up.
               </p>
-              <ul className="flex flex-wrap gap-2 text-xxxs text-purple-200">
+              <ul className="flex flex-wrap gap-2 text-xs text-purple-200">
                 {QuanSkills.map((skill) => (
-                  <li
-                    key={skill}
-                    className="px-2 py-1 bg-purple-900 rounded-2xl"
-                  >
-                    {skill}
-                  </li>
+                  <Skill key={skill}>{skill}</Skill>
                 ))}
               </ul>
             </div>
@@ -38,27 +32,20 @@ function Experience() {
         </a>
         <a href="https://getaboard.org/" target="_blank" rel="noreferrer">
           <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4 transition-all">
-            <p className="w-1/3 text-xxs text-purple-300">
-              JAN 2020 - APR 2020
-            </p>
+            <p className="w-1/3 text-sm text-purple-300">JAN 2020 - APR 2020</p>
             <div className="flex flex-col w-2/3 gap-3">
-              <p className="text-xs font-medium">
+              <p className="text-lg font-medium">
                 Software Developer • Getaboard
               </p>
-              <p className="text-xxs text-purple-300">
+              <p className="text-sm text-purple-300">
                 Designed and developed a 2-D platformer game featuring
                 functionality akin to Super Mario Bros., including multiple
                 challenging levels, diverse enemy types, and formidable boss
                 encounters.
               </p>
-              <ul className="flex flex-wrap gap-2 text-xxxs text-purple-200">
+              <ul className="flex flex-wrap gap-2 text-xs text-purple-200">
                 {GetaboardSkills.map((skill) => (
-                  <li
-                    key={skill}
-                    className="px-2 py-1 bg-purple-900 rounded-2xl"
-                  >
-                    {skill}
-                  </li>
+                  <Skill key={skill}>{skill}</Skill>
                 ))}
               </ul>
             </div>
@@ -66,7 +53,7 @@ function Experience() {
         </a>
       </ul>
       <a
-        className="group text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
+        className="group text-slate-200 font-medium hover:text-purple-500 transition-all"
         href="https://drive.google.com/file/d/1TAV-DTB6SrybSW5X8pzV7TLO8MAjNKYh/view?usp=sharing"
         target="_blank"
         rel="noreferrer"

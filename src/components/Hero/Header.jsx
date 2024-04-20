@@ -3,13 +3,13 @@ import Socials from "./Socials";
 
 function Header() {
   return (
-    <div className="sticky top-0 flex flex-col max-h-screen w-1/2 justify-between py-14">
+    <div className="sticky top-0 flex flex-col max-h-screen w-1/2 justify-between py-20">
       <div>
-        <h1 className="text-purple-500 text-4xl font-bold">Kevin Zheng</h1>
-        <h2 className="text-purple-500 text-base font-bold mt-1">
+        <h1 className="text-purple-500 text-6xl font-bold">Kevin Zheng</h1>
+        <h2 className="text-purple-500 text-2xl font-bold">
           Frontend Engineer
         </h2>
-        <p className="text-purple-300 text-xs mt-2 w-3/5">
+        <p className="text-purple-300 text-base mt-4 w-3/5">
           I build pixel-perfect, engaging, and accessible digital experiences.
         </p>
         <Navigator />

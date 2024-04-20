@@ -17,8 +17,8 @@ function Projects() {
               alt="Crunchyroll Hero Image"
             />
             <div className="flex flex-col w-2/3 gap-3">
-              <p className="text-xs font-medium">Computron</p>
-              <p className="text-xxs text-purple-300">
+              <p className="text-lg font-medium">Computron</p>
+              <p className="text-sm text-purple-300">
                 {`Game that helps people learn coding logic and techniques that is
                 similar to games like "Human Resource Machine" and
                 "7 Billion Humans".`}
@@ -38,8 +38,8 @@ function Projects() {
               alt="Crunchyroll Hero Image"
             />
             <div className="flex flex-col w-2/3 gap-3">
-              <p className="text-xs font-medium">Crunchyroll Landing Page</p>
-              <p className="text-xxs text-purple-300">
+              <p className="text-lg font-medium">Crunchyroll Landing Page</p>
+              <p className="text-sm text-purple-300">
                 Created a landing page to be responsive and compatible with any
                 device.
               </p>
@@ -48,7 +48,7 @@ function Projects() {
         </a>
       </ul>
       <a
-        className="group text-slate-200 text-xs font-medium hover:text-purple-500 transition-all"
+        className="group text-slate-200 font-medium hover:text-purple-500 transition-all"
         href="/archive"
       >
         <span className="mr-0.5">View Projects Archive</span>
