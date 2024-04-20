@@ -17,13 +17,19 @@ export const ProjectsArchive = [
     projectName: "Crunchyroll Landing Page",
     madeAt: "Personal",
     builtWith: ["HTML", "CSS", "JavaScript"],
-    link: "https://crunchyroll-landing-page-kz.netlify.app",
+    link: {
+      name: "crunchyroll-landing-page-kz.netlify.app",
+      url: "https://crunchyroll-landing-page-kz.netlify.app",
+    },
   },
   {
     year: 2020,
     projectName: "Computron",
     madeAt: "UCF",
     builtWith: ["C#", "Unity"],
-    link: "https://computrondevteam.itch.io/computron2-0",
+    link: {
+      name: "computrondevteam.itch.io",
+      url: "https://computrondevteam.itch.io/computron2-0",
+    },
   },
 ];

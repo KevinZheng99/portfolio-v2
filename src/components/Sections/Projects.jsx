@@ -53,7 +53,7 @@ function Projects() {
       >
         <span className="mr-0.5">View Projects Archive</span>
         <svg
-          className="inline group-hover:translate-x-1 transition-transform"
+          className="inline group-hover:translate-x-1.5 transition-transform"
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
           height="1em"

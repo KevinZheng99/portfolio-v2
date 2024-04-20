@@ -60,7 +60,7 @@ function Experience() {
       >
         <span className="mr-0.5">View Full Resume</span>
         <svg
-          className="inline group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
+          className="inline group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
           height="1em"
