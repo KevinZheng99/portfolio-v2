@@ -27,7 +27,7 @@ function Projects() {
           </li>
         </a>
         <a
-          href="https://crunchyroll-landing-page-kz.netlify.app/"
+          href="https://crunchyroll-kz.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >

@@ -1,7 +1,7 @@
 function Header() {
   return (
     <section className="text-slate-200">
-      <a className="group inline-flex items-center" href="/">
+      <a className="group inline-flex items-center text-purple-500" href="/">
         <svg
           className="inline group-hover:-translate-x-1 transition-transform mr-0.5"
           xmlns="http://www.w3.org/2000/svg"

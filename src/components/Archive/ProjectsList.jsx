@@ -14,10 +14,10 @@ function ProjectsList() {
       {ProjectsArchive.map((project) => {
         return (
           <tr className="border-b border-slate-500" key={project.projectName}>
-            <td className="py-4 text-slate-400">{project.year}</td>
-            <td className="py-4 font-bold">{project.projectName}</td>
-            <td className="py-4 text-slate-400">{project.madeAt}</td>
-            <td className="py-4">
+            <td className="py-4 pr-4 text-slate-400">{project.year}</td>
+            <td className="py-4 pr-4 font-bold">{project.projectName}</td>
+            <td className="py-4 pr-4 text-slate-400">{project.madeAt}</td>
+            <td className="py-4 pr-4">
               <ul className="flex gap-2 text-sm">
                 {project.builtWith.map((skill) => (
                   <Skill key={skill}>{skill}</Skill>

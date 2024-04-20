@@ -13,6 +13,16 @@ export const GetaboardSkills = ["HTML", "CSS", "JavaScript", "Phaser"];
 
 export const ProjectsArchive = [
   {
+    year: 2024,
+    projectName: "Ableton About Page",
+    madeAt: "Personal",
+    builtWith: ["React", "JavaScript"],
+    link: {
+      name: "abletonkevin.netlify.app",
+      url: "https://abletonkevin.netlify.app/",
+    },
+  },
+  {
     year: 2022,
     projectName: "Quan",
     madeAt: "Quan Wellbeing",
@@ -34,8 +44,8 @@ export const ProjectsArchive = [
     madeAt: "Personal",
     builtWith: ["HTML", "CSS", "JavaScript"],
     link: {
-      name: "crunchyroll-landing-page-kz.netlify.app",
-      url: "https://crunchyroll-landing-page-kz.netlify.app",
+      name: "crunchyroll-kz.netlify.app",
+      url: "https://crunchyroll-kz.netlify.app",
     },
   },
   {
