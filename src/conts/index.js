@@ -19,7 +19,17 @@ export const ProjectsArchive = [
     builtWith: ["React", "Nextjs", "JavaScript", "SQL"],
   },
   {
-    year: 2020,
+    year: 2021,
+    projectName: "Personal Website V1",
+    madeAt: "Personal",
+    builtWith: ["HTML", "CSS", "JavaScript"],
+    link: {
+      name: "kevinzheng.netlify.app",
+      url: "https://kevinzheng.netlify.app/",
+    },
+  },
+  {
+    year: 2021,
     projectName: "Crunchyroll Landing Page",
     madeAt: "Personal",
     builtWith: ["HTML", "CSS", "JavaScript"],
@@ -29,7 +39,7 @@ export const ProjectsArchive = [
     },
   },
   {
-    year: 2020,
+    year: 2021,
     projectName: "Computron",
     madeAt: "UCF",
     builtWith: ["C#", "Unity"],
