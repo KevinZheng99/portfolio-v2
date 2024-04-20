@@ -24,23 +24,25 @@ function ProjectsList() {
                 ))}
               </ul>
             </td>
-            <td className="group py-4 text-slate-400 hover:text-purple-500 transition-all">
-              <a href={project.link.url} target="_blank" rel="noreferrer">
-                {project.link.name}
-              </a>
-              <svg
-                className="inline group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
-                xmlns="http://www.w3.org/2000/svg"
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="currentColor"
-                  d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"
-                />
-              </svg>
-            </td>
+            {project.link && (
+              <td className="group py-4 text-slate-400 hover:text-purple-500 transition-all">
+                <a href={project.link.url} target="_blank" rel="noreferrer">
+                  {project.link.name}
+                </a>
+                <svg
+                  className="inline group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"
+                  />
+                </svg>
+              </td>
+            )}
           </tr>
         );
       })}

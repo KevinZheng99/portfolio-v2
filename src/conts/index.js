@@ -13,6 +13,12 @@ export const GetaboardSkills = ["HTML", "CSS", "JavaScript", "Phaser"];
 
 export const ProjectsArchive = [
   {
+    year: 2022,
+    projectName: "Quan",
+    madeAt: "Quan Wellbeing",
+    builtWith: ["React", "Nextjs", "JavaScript", "SQL"],
+  },
+  {
     year: 2020,
     projectName: "Crunchyroll Landing Page",
     madeAt: "Personal",
