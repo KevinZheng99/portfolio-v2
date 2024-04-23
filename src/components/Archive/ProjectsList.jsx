@@ -3,21 +3,23 @@ import Skill from "../shared/Skill";
 
 function ProjectsList() {
   return (
-    <table className="text-slate-200 w-full my-8">
+    <table className="text-slate-200 my-8">
       <tr className="text-left border-b border-slate-500">
         <th className="py-4">Year</th>
         <th className="py-4">Project</th>
-        <th className="py-4">Made At</th>
-        <th className="py-4">Built with</th>
-        <th className="py-4">Link</th>
+        <th className="py-4 hidden lg:table-cell">Made At</th>
+        <th className="py-4 hidden lg:table-cell">Built with</th>
+        <th className="py-4 hidden sm:table-cell">Link</th>
       </tr>
       {ProjectsArchive.map((project) => {
         return (
           <tr className="border-b border-slate-500" key={project.projectName}>
             <td className="py-4 pr-4 text-slate-400">{project.year}</td>
             <td className="py-4 pr-4 font-bold">{project.projectName}</td>
-            <td className="py-4 pr-4 text-slate-400">{project.madeAt}</td>
-            <td className="py-4 pr-4">
+            <td className="py-4 pr-4 text-slate-400 hidden lg:table-cell">
+              {project.madeAt}
+            </td>
+            <td className="py-4 pr-4 hidden lg:table-cell">
               <ul className="flex gap-2 text-sm">
                 {project.builtWith.map((skill) => (
                   <Skill key={skill}>{skill}</Skill>
@@ -25,7 +27,7 @@ function ProjectsList() {
               </ul>
             </td>
             {project.link && (
-              <td className="group py-4 text-slate-400 hover:text-purple-500 transition-all">
+              <td className="group py-4 text-slate-400 hover:text-purple-500 transition-all hidden sm:table-cell">
                 <a href={project.link.url} target="_blank" rel="noreferrer">
                   {project.link.name}
                 </a>
