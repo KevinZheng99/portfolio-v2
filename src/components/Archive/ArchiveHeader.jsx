@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <section className="text-slate-200">
-      <a className="group inline-flex items-center text-purple-500" href="/">
+      <Link className="group inline-flex items-center text-purple-500" to="/">
         <svg
           className="inline group-hover:-translate-x-1 transition-transform mr-0.5"
           xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +17,7 @@ function Header() {
           />
         </svg>
         <span className="text-lg font-medium">Kevin Zheng</span>
-      </a>
+      </Link>
       <div className="text-5xl font-bold">All Projects</div>
     </section>
   );

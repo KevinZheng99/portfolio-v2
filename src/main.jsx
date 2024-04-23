@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "archive",
+    path: "/archive",
     element: <Archive />,
   },
 ]);

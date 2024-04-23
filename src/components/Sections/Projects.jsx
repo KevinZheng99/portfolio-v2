@@ -1,5 +1,6 @@
 import crunchyroll from "../../assets/CrunchyrollHero.png";
 import computron from "../../assets/Computron.png";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -50,9 +51,9 @@ function Projects() {
           </li>
         </a>
       </ul>
-      <a
+      <Link
         className="group text-slate-200 font-medium hover:text-purple-500 transition-all"
-        href="/archive"
+        to="/archive"
       >
         <span className="mr-0.5">View Projects Archive</span>
         <svg
@@ -67,7 +68,7 @@ function Projects() {
             d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
           />
         </svg>
-      </a>
+      </Link>
     </section>
   );
 }
