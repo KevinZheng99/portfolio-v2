@@ -4,6 +4,9 @@ import Skill from "../shared/Skill";
 function Experience() {
   return (
     <section id="experience" className="scroll-mt-12">
+      <p className="text-purple-500 text-lg font-bold mb-6 lg:hidden">
+        EXPERIENCE
+      </p>
       <ul>
         <a
           href="https://www.quanwellbeing.com/"

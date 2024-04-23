@@ -4,6 +4,7 @@ function About() {
       id="about"
       className="flex flex-col gap-2 mb-20 scroll-mt-20 text-slate-400"
     >
+      <p className="text-purple-500 text-lg font-bold mb-6 lg:hidden">ABOUT</p>
       <p>
         My journey into the realm of development began in 2016, captivated by
         videos showcasing developers crafting intricately designed games

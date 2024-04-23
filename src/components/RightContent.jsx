@@ -5,7 +5,7 @@ import Footer from "./Sections/Footer";
 
 function RightContainer() {
   return (
-    <div className=" text-purple-500 w-1/2 py-24">
+    <div className="text-purple-500 pt-24 lg:w-1/2 lg:py-24">
       <About />
       <Experience />
       <Projects />

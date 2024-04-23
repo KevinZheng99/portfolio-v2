@@ -7,7 +7,7 @@ function Socials() {
     "fill-current text-purple-500 transition-all hover:text-purple-300";
 
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 mt-8">
       <a
         href="https://github.com/KevinZheng99"
         target="_blank"

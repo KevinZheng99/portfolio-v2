@@ -4,6 +4,9 @@ import computron from "../../assets/Computron.png";
 function Projects() {
   return (
     <section id="projects" className="mt-20 scroll-mt-12">
+      <p className="text-purple-500 text-lg font-bold mb-6 lg:hidden">
+        PROJECTS
+      </p>
       <ul>
         <a
           href="https://computrondevteam.itch.io/computron2-0"
