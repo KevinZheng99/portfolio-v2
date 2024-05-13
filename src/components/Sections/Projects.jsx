@@ -1,5 +1,6 @@
 import crunchyroll from "../../assets/CrunchyrollHero.png";
 import computron from "../../assets/Computron.png";
+import mbdtfAlbum from "../../assets/MBDTFAlbum.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -10,6 +11,25 @@ function Projects() {
       </p>
       <ul>
         <a
+          href="https://mbdtf-album.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <li className="flex gap-4 border border-transparent hover:border-purple-500 rounded p-4 mb-4 transition-all">
+            <img
+              className="w-1/4 h-full border border-gray-500 rounded"
+              src={mbdtfAlbum}
+              alt="My Beautiful Dark Twisted Fantasy Album Audio Player"
+            />
+            <div className="flex flex-col w-2/3 gap-3">
+              <p className="text-lg font-medium">Album Audio Player</p>
+              <p className="text-sm text-purple-300">
+                {`An Album release page with a custom and full functioning audio player for the My Beautiful Dark Twisted Fantasy album by Kanye West.`}
+              </p>
+            </div>
+          </li>
+        </a>
+        <a
           href="https://computrondevteam.itch.io/computron2-0"
           target="_blank"
           rel="noreferrer"
@@ -18,7 +38,7 @@ function Projects() {
             <img
               className="w-1/4 h-full border border-gray-500 rounded"
               src={computron}
-              alt="Crunchyroll Hero Image"
+              alt="Computron Game"
             />
             <div className="flex flex-col w-2/3 gap-3">
               <p className="text-lg font-medium">Computron</p>
