@@ -45,7 +45,7 @@ export const ProjectsArchive = [
     builtWith: ["HTML", "CSS", "JavaScript"],
     link: {
       name: "kevinzheng.netlify.app",
-      url: "https://kevinzheng.netlify.app/",
+      url: "https://kevinzheng-v1.netlify.app/",
     },
   },
   {
