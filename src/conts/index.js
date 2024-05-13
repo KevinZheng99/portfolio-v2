@@ -14,6 +14,16 @@ export const GetaboardSkills = ["HTML", "CSS", "JavaScript", "Phaser"];
 export const ProjectsArchive = [
   {
     year: 2024,
+    projectName: "Album Audio Player",
+    madeAt: "Personal",
+    builtWith: ["React", "JavaScript", "Tailwind CSS"],
+    link: {
+      name: "mbdtf-album.netlify.app",
+      url: "https://mbdtf-album.netlify.app/",
+    },
+  },
+  {
+    year: 2024,
     projectName: "Ableton About Page",
     madeAt: "Personal",
     builtWith: ["React", "JavaScript"],
